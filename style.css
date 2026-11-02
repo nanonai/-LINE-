@@ -374,6 +374,7 @@ body {
 }
 .legend-color.platts { background-color: var(--c-accent); }
 .legend-color.sunk { background-color: var(--c-highlight); }
+.legend-color.bakubaku { background-color: #7fb77e; }
 
 .calendar-grid {
     display: grid;
@@ -420,6 +421,12 @@ body {
     background-color: var(--c-highlight);
     color: var(--c-text);
     border-color: var(--c-highlight);
+}
+
+.cal-cell.bakubaku {
+    background-color: #7fb77e;
+    color: white;
+    border-color: #7fb77e;
 }
 
 .cal-cell.today {

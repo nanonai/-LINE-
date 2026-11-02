@@ -103,6 +103,43 @@ const CONFIG = {
             mapUrl: "https://maps.google.com/?q=兵庫県丹波市山南町池谷117-8",
             foods: ["taco-01", "burger-01", "taco-02", "taco-03", "burger-02", "burger-03", "burger-04"], // 全て設定
             colorClass: "sunk" // カレンダーの色分け用クラス
+        }))),
+
+        // ===== 2026年11月 =====
+        // --- サンキッチン ---
+        ...([10, 11, 12, 13, 15].map(d => ({
+            city: "丹波市",
+            date: `2026-11-${d.toString().padStart(2, '0')}`,
+            openTime: "11:00 - 17:00",
+            venue: "サンキッチン",
+            address: "兵庫県丹波市山南町池谷117-8",
+            mapUrl: "https://maps.google.com/?q=兵庫県丹波市山南町池谷117-8",
+            foods: ["taco-01", "burger-01", "taco-02", "taco-03", "burger-02", "burger-03", "burger-04"],
+            colorClass: "sunk"
+        }))),
+
+        // --- 旅びと食堂ぷらっつなかせん ---
+        ...([18, 19, 20, 26, 27, 28, 29, 30].map(d => ({
+            city: "尾鷲市",
+            date: `2026-11-${d.toString().padStart(2, '0')}`,
+            openTime: "11:00 - 15:00",
+            venue: "旅びと食堂ぷらっつなかせん",
+            address: "三重県尾鷲市中井町2-13",
+            mapUrl: "https://maps.google.com/?q=三重県尾鷲市中井町2-13",
+            foods: ["taco-01", "burger-01", "taco-02", "taco-03", "burger-02", "burger-03", "burger-04"],
+            colorClass: "platts"
+        }))),
+
+        // --- BAKUBAKUコラボ ---
+        ...([21, 22, 23].map(d => ({
+            city: "尾鷲市",
+            date: `2026-11-${d.toString().padStart(2, '0')}`,
+            openTime: "11:00 - 22:00",
+            venue: "BAKUBAKUコラボ（BAKUBAKUバーガー）",
+            address: "三重県尾鷲市中村町8-2",
+            mapUrl: "https://maps.google.com/?q=三重県尾鷲市中村町8-2",
+            foods: ["taco-01", "burger-01", "taco-02", "taco-03", "burger-02", "burger-03", "burger-04"],
+            colorClass: "bakubaku"
         })))
     ],
   
@@ -122,9 +159,9 @@ const CONFIG = {
             address: "兵庫県丹波市山南町池谷117-8"
         },
         {
-            name: "（出店先 募集中）",
-            hours: "-",
-            address: "現在、新規出店先を探しています"
+            name: "BAKUBAKUコラボ（BAKUBAKUバーガー）",
+            hours: "11:00 - 22:00",
+            address: "三重県尾鷲市中村町8-2"
         },
         {
             name: "（出店先 募集中）",
